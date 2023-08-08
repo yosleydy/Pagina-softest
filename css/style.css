@@ -380,8 +380,15 @@ html .group-xl-responsive {
 html .group-xl-responsive {
     margin-bottom: -30px;
     margin-left: -30px;
+    margin-top: 0%;
 }
 }
+
+@media (max-width: 500px){
+  html .group-xl-responsive {
+    margin-top: 40%;
+  }
+  }
 
 @media (min-width: 768px){
 * + .group-xl-responsive {
@@ -475,7 +482,7 @@ iframe {
     padding: 15px 20px;
     position: relative;
     display: block;
-    height: 60px;
+    height: 75px;
     cursor: pointer;
     color: #777;
     font-size: 14px;
